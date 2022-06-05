@@ -30,7 +30,7 @@ describe('CalculatorService', () => {
   })
 
   it('should return false if param not equal to 0', () => {
-    let isNull = service.isNull(10);
+    let isNull = service.isNull(20);
     expect(isNull).toBe(false);
   })
 });
